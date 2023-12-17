@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SHOPPERS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <!-- Navigation Bar (using Bootstrap Navbar) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SHOPPERS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="home">
+          <a class="home" href="#home">Home</a>
+        </li>
+        <li class="about">
+          <a class="about" href="#about">About</a>
+        </li>
+        <li class="products">
+            <a class="products" href="#products">Products</a>
+        </li>
+        <li class="contact">
+          <a class="contact" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+   
+    <section id ="home">
+        <div class="Main">
+            <h1 class="headings">SHOPPERS <br> Your site for shopping</h1>
+        </div>
+
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT</h1>
+            <div id="intro">
+                <h2> THE BEST SHOPPER STOP</h2>
+                <p>A clothing website offers a diverse collection of trendy and stylish clothing items for men, women, and children.</p>
+                <p>It provides an extensive range of apparel, including tops, bottoms, dresses, outerwear, and accessories, catering to various styles and preferences.</p>
+                <p>Users can easily navigate through the website to discover the latest fashion trends, select from different sizes and colors, and make secure purchases.</p>
+                <p>Additionally, the website may include features such as user reviews, size guides, lookbooks, and a seamless checkout process, ensuring an enjoyable and convenient shopping experience for fashion enthusiasts.</p>
+            </div>
+          </p>  
+        </div>
+    </section>
+
+    <section id="products">
+        <h1 class="headings">PRODUCTS</h1>
+            <!-- Main Content (products, categories, etc.) -->
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Product Cards (using Bootstrap Cards) -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="product1.jpeg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 1</h5>
+                                <p class="card-text">Designer Shirt</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more product cards for other products -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="product2.jpeg" class="card-img-top" alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 2</h5>
+                                <p class="card-text">Dual tone Shirt</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more product cards as needed -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="product3.jpeg" class="card-img-top" alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 3</h5>
+                                <p class="card-text">Multi Color Shirt</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Add more product cards as needed -->
+                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="product4.jpeg" class="card-img-top" alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 4</h5>
+                                <p class="card-text"> printed TShirt</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form acgtion="" class=" form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10"
+                placeholder="Enter Your message"></textarea>
+            <input type="submit" value="SEND" id="send">
+    </section>
+
+
+
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Your Custom JavaScript -->
+<script src="scripts.js"></script>
+</body>
+</html>
